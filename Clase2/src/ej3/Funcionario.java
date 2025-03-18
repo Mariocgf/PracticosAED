@@ -2,7 +2,7 @@ package ej3;
 
 import java.util.Objects;
 
-public abstract class Funcionario implements Comparable{
+public abstract class Funcionario {
 
     private String nombre;
     private String ci;
