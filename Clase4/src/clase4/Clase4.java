@@ -9,13 +9,14 @@ public class Clase4 {
         {5, 9, 1, 6},
         {5, 5, 2, 9}};
         int mat2[][] = {
-                        {1, 2, 3, 5, 6},
-                        {9, 1, 4, 5, 9},
-                        {9, 1, 15, 1, 9},
+                        {1, 2, 3, 5, 1},
+                        {9, 1, 4, 1, 9},
+                        {9, 1, 5, 1, 3},
+                        {9, 1, 4, 1, 9},
                         {1, 2, 3, 5, 1}};
         //System.out.println(maximoMatriz(mat));
         //System.out.println(buscarEnColumna(mat, 2, 9));
-        System.out.println(esPalindroma(mat2));
+        System.out.println(esSimetricaHorizontal(mat2));
     }
 
     public static void mostrarMatriz(int[][] mat) {
